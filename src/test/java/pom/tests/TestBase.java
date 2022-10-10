@@ -9,7 +9,7 @@ public class TestBase {
     @BeforeMethod
    public void setUp() {
         FirstFormDemoPage.setUp();
-        FirstFormDemoPage.open("https://demo.seleniumeasy.com/basic-first-form-demo.html");
+
     }
 
 

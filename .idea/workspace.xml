@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e87432b-347c-4f11-a4c5-85c020e73ba3" name="Changes" comment="TestBase245">
+    <list default="true" id="4e87432b-347c-4f11-a4c5-85c020e73ba3" name="Changes" comment="dffsdfsdt423523453">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pom/pages/demoqa/TextBaxPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pom/tests/demoqa/TextBoxTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pom/pages/seleniumEasy/FirstFormDemoTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pom/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/FirstFormDemoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/pages/seleniumEasy/FirstFormDemoPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/firstFormDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/firstFormDemoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +51,24 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="firstFormDemoTest.testInputFieldSeleniumEasy" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autotestdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pom.tests.seleniumEasy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pom.tests.seleniumEasy" />
+      <option name="MAIN_CLASS_NAME" value="pom.tests.seleniumEasy.firstFormDemoTest" />
+      <option name="METHOD_NAME" value="testInputFieldSeleniumEasy" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="firstFormDemoTest.testInputFieldsSeleniumEasy" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="autotestdemo" />
       <extension name="coverage">
@@ -71,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.firstFormDemoTest.testInputFieldSeleniumEasy" />
         <item itemvalue="TestNG.firstFormDemoTest.testInputFieldsSeleniumEasy" />
       </list>
     </recent_temporary>
@@ -112,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665403082227</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="dffsdfsdt423523453">
+      <created>1665404770937</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665404770937</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,7 +156,8 @@
     <MESSAGE value="Derrghh jgffg" />
     <MESSAGE value="TestBase" />
     <MESSAGE value="TestBase245" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestBase245" />
+    <MESSAGE value="dffsdfsdt423523453" />
+    <option name="LAST_COMMIT_MESSAGE" value="dffsdfsdt423523453" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
