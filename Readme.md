@@ -15,3 +15,7 @@ Baigiamasis darbas
 * Txt
   Tc_1
 * sdfsg
+3. zingsnis2
+* Txt
+  Tc_1
+* sdfsg
