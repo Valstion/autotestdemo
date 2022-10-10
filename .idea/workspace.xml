@@ -4,11 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e87432b-347c-4f11-a4c5-85c020e73ba3" name="Changes" comment="Derrghh jgffg" />
+    <list default="true" id="4e87432b-347c-4f11-a4c5-85c020e73ba3" name="Changes" comment="Derrghh jgffg">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pom/pages/Common.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pom/pages/seleniumEasy/FirstFormDemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/firstFormDemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pom/utils/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,7 +36,6 @@
   <component name="ProjectId" id="2FvyWkn9IxC5LfJwOp360GcxOms" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
@@ -30,6 +46,13 @@
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pom.pages" />
+      <recent name="pom.pages.seleniumEasy" />
+      <recent name="pom.tests.seleniumEasy" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665387913608</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Derrghh jgffg">
+      <created>1665388230334</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665388230334</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
