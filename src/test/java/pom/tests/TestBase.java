@@ -7,14 +7,14 @@ import pom.pages.seleniumEasy.FirstFormDemoTest;
 public class TestBase {
 
     @BeforeMethod
-    private void setUp() {
+   public void setUp() {
         FirstFormDemoTest.setup();
         FirstFormDemoTest.open("https://demo.seleniumeasy.com/basic-first-form-demo.html");
     }
 
 
     @AfterMethod
-    private void tearDown() {
+    public void tearDown() {
         FirstFormDemoTest.close();
     }
 

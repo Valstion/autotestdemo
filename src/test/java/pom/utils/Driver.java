@@ -15,6 +15,10 @@ public class Driver {
         driver.manage().deleteAllCookies();
     }
 
+    public static WebDriver getDriver() {
+        return driver;
+    }
+
     public static void openUrl(String url) {
         driver.get(url);
 
