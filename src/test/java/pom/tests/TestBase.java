@@ -15,10 +15,10 @@ public class TestBase {
     }
 
 
-    @AfterMethod
-    public void tearDown() {
+   @AfterMethod
+   public void tearDown() {
         //FirstFormDemoPage.close();
-        Common.close();
-    }
+     Common.close();
+ }
 
 }

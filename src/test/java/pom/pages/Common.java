@@ -3,6 +3,7 @@ package pom.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import pom.utils.Driver;
 
 public class Common {
@@ -39,7 +40,13 @@ public class Common {
     }
 
     public static String getElementText(By locator) {
-        return getElement(locator).getText();
+        return getElement(locator).getText();}
+
+        public static void selectOptionByValue(By locator, String value){
+            WebElement webElement = getElement(locator);
+            Select selectElement = new Select(webElement);
+            selectElement.selectByValue(value);
+        }
     }
-}
+
 

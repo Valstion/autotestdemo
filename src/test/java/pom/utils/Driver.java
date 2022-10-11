@@ -12,7 +12,7 @@ public class Driver {
     private static WebDriver driver;
 
     public static void setDriver() {
-        WebDriverManager.operadriver().setup();
+        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(setUpOptions());
         driver.manage().deleteAllCookies();
     }
