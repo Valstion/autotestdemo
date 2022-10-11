@@ -17,26 +17,52 @@ public class FirstFormDemoPage {
         Common.close();
     }
 
-    public static void sleeo(int millis) {
-
+    public static void sleep(int millis){
         Common.sleep(millis);
     }
 
     public static void enterFullName(String expectedFullName) {
-        Common.setKeeysToElement(
+        Common.sendKeysToElement(
                 expectedFullName,
-                By.xpath("//input[@id=user-message]")
+                By.xpath("//input[@id='user-message']")
         );
-
     }
 
     public static void clickButtonShowMessage() {
-        Common.clickElement(By.xpath("//form[@id='get-input']//button")
+        Common.clickElement(
+                By.xpath("//form[@id='get-input']//button")
         );
-
     }
 
     public static String readMessage() {
-        return Common.getElementText(By.xpath("//span[@id='display']"));
+        return Common.getElementText(
+                By.xpath("//span[@id='display']")
+        );
+    }
+
+    public static void enterValueA(String value) {
+        Common.sendKeysToElement(
+                value,
+                By.xpath("//input[@id='sum1']")
+        );
+    }
+
+    public static void enterValueB(String value) {
+        Common.sendKeysToElement(
+                value,
+                By.xpath("//input[@id='sum2']")
+        );
+    }
+
+    public static void clickButtonGetTotal() {
+        Common.clickElement(
+                By.xpath("//*[@id='gettotal']//button")
+        );
+    }
+
+    public static String readSumTotal() {
+        return Common.getElementText(
+                By.xpath("//*[@id='displayvalue']")
+        );
     }
 }

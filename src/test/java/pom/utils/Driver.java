@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import java.time.Duration;
+
 
 public class Driver {
     private static WebDriver driver;
@@ -21,6 +23,7 @@ public class Driver {
 
     public static void openUrl(String url) {
         driver.get(url);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
     }
 

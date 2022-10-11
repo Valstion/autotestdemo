@@ -30,15 +30,16 @@ public class Common {
         return Driver.getDriver().findElement(locator);
     }
 
-    public static void setKeeysToElement(String keys, By locator) {
+    public static void sendKeysToElement(String keys, By locator) {
         getElement(locator).sendKeys(keys);
     }
 
     public static void clickElement(By locator) {
         getElement(locator).click();
     }
-    public static String getElementText(By locator){
-        return getElement(locator).getText() ;
+
+    public static String getElementText(By locator) {
+        return getElement(locator).getText();
     }
 }
 
