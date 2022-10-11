@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e87432b-347c-4f11-a4c5-85c020e73ba3" name="Changes" comment="Demoqa">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pom/pages/Locators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pom/pages/seleniumEasy/CheckboxDemoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/CheckBoxDemoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pom/pages/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/pages/Common.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pom/pages/demoqa/TextBaxPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/pages/demoqa/TextBaxPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pom/pages/demoqa/TextBaxPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/pages/demoqa/TextBoxPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pom/pages/seleniumEasy/FirstFormDemoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/pages/seleniumEasy/FirstFormDemoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pom/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/tests/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pom/tests/demoqa/TextBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/tests/demoqa/TextBoxTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/firstFormDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/firstFormDemoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pom/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/utils/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,25 @@
       <recent name="pom.pages.seleniumEasy" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.CheckBoxDemoTest.testSigleCheckBoxDemo">
+    <configuration name="CheckBoxDemoTest.testSigleCheckBoxDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autotestdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pom.tests.seleniumEasy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pom.tests.seleniumEasy" />
+      <option name="MAIN_CLASS_NAME" value="pom.tests.seleniumEasy.CheckBoxDemoTest" />
+      <option name="METHOD_NAME" value="testSigleCheckBoxDemo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="firstFormDemoTest.testInputFieldSeleniumEasy" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="autotestdemo" />
       <extension name="coverage">
@@ -89,8 +109,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="firstFormDemoTest.testTwoInputFields" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autotestdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pom.tests.seleniumEasy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pom.tests.seleniumEasy" />
+      <option name="MAIN_CLASS_NAME" value="pom.tests.seleniumEasy.firstFormDemoTest" />
+      <option name="METHOD_NAME" value="testTwoInputFields" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CheckBoxDemoTest.testSigleCheckBoxDemo" />
+        <item itemvalue="TestNG.firstFormDemoTest.testTwoInputFields" />
         <item itemvalue="TestNG.firstFormDemoTest.testInputFieldSeleniumEasy" />
         <item itemvalue="TestNG.firstFormDemoTest.testInputFieldsSeleniumEasy" />
       </list>
@@ -147,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665406884013</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Demoqa">
+      <created>1665469675703</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665469675703</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

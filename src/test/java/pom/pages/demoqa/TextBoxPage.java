@@ -2,50 +2,56 @@ package pom.pages.demoqa;
 
 import org.openqa.selenium.By;
 import pom.pages.Common;
+import pom.pages.Locators;
 
-public class TextBaxPage {
+public class TextBoxPage {
+
+    public static void open(String url) {
+        Common.openUrl(url);
+    }
+
     public static void enterFullName(String expectedFullName) {
         Common.sendKeysToElement(
                 expectedFullName,
-                By.xpath("//input[@id='userName']")
+                Locators.Demoqa.TextBox.inputFullName
         );
     }
 
     public static void clickButtonSubmit() {
         Common.clickElement(
-                By.xpath("//*[@id='submit']")
+                Locators.Demoqa.TextBox.buttonSubmit
         );
     }
 
     public static String readMessageFullName() {
         return Common.getElementText(
-                By.xpath("//*[@id='name']")
+                Locators.Demoqa.TextBox.paragraphName
         );
     }
 
     public static void enterEmail(String expectedUserEmail) {
         Common.sendKeysToElement(
                 expectedUserEmail,
-                By.xpath("//*[@id='userEmail']")
+                Locators.Demoqa.TextBox.emailName
         );
     }
 
     public static String readMessageEmail() {
         return Common.getElementText(
-                By.xpath("//*[@id='email']")
+                Locators.Demoqa.TextBox.mesageEmail
         );
     }
 
     public static void enterCurrentAddress(String expectedCurrentAddress) {
         Common.sendKeysToElement(
                 expectedCurrentAddress,
-                By.xpath("//textarea[@id='currentAddress']")
+                Locators.Demoqa.TextBox.currentAdress
         );
     }
 
     public static String readMessageCurrentAddress() {
         return Common.getElementText(
-                By.xpath("//p[@id='currentAddress']")
+                Locators.Demoqa.TextBox.readMessageAdress
         );
     }
 }

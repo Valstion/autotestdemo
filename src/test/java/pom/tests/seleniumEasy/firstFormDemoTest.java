@@ -2,6 +2,7 @@ package pom.tests.seleniumEasy;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pom.pages.seleniumEasy.FirstFormDemoPage;
 import pom.tests.TestBase;
@@ -11,12 +12,11 @@ public class firstFormDemoTest extends TestBase {
     @Override
     public void setUp() {
         super.setUp();
-        FirstFormDemoPage.open(
-                "https://demo.seleniumeasy.com/basic-first-form-demo.html"
-        ); }
+        FirstFormDemoPage.open("https://demo.seleniumeasy.com/basic-first-form-demo.html");
+    }
 
-@Test
-        private void testInputFieldSeleniumEasy() {
+    @Test
+    private void testInputFieldSeleniumEasy() {
         String expectedFullName = "Jevgenij";
         String actualFullName;
 
@@ -26,18 +26,22 @@ public class firstFormDemoTest extends TestBase {
 
         Assert.assertEquals(actualFullName, expectedFullName);
     }
-        @Test
-        private void testTwoInputFieldsAdd5and5Values() {
-            String input1 = "5";
-            String input2 = "5";
-            String expectedSumTotal = "10";
-            String actualSumTotal;
 
-            FirstFormDemoPage.enterValueA(input1);
-            FirstFormDemoPage.enterValueB(input2);
-            FirstFormDemoPage.clickButtonGetTotal();
-            actualSumTotal = FirstFormDemoPage.readSumTotal();
+    @DataProvider(name = "DataProviderTwoInputsFields")
+    private Object[][] provideDataforTwoInputsFields() {
+        return new Object[][]{{"5", "5", "10"}, {"3", "b", "NaN"}, {"a", "0", "NaN"}, {"penki", "Penki", "NaN"},};
+    }
 
-            Assert.assertEquals(actualSumTotal, expectedSumTotal);
-        }
+    @Test(dataProvider = "DataProviderTwoInputsFields")
+    private void testTwoInputFields(String input1, String input2,String expectedSumTotal ) {
+
+        String actualSumTotal;
+
+        FirstFormDemoPage.enterValueA(input1);
+        FirstFormDemoPage.enterValueB(input2);
+        FirstFormDemoPage.clickButtonGetTotal();
+        actualSumTotal = FirstFormDemoPage.readSumTotal();
+
+        Assert.assertEquals(actualSumTotal, expectedSumTotal);
+    }
 }
