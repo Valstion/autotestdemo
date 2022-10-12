@@ -36,7 +36,8 @@ public class Locators {
             public static By buttonGroupCheckbox = By.xpath("//*[@id='check1']");
             public static By inputMultipleCheckbox = By.xpath("//input[@class='cb1-element']");
         }
-////
+
+        ////
         public static class SelectDropdownDemo {
             public static By selectDayOfWeek = By.xpath("//select[@id='select-demo']");
             public static By paragraphDayOfWeek = By.xpath("//p[@class='selected-value']");
@@ -53,5 +54,13 @@ public class Locators {
             }
         }
 
+        public static class AlertBoxDemo {
+            public static By buttonDisplayAlertBox = By.xpath("//button[@class='btn btn-default']");
+            public static By buttonDisplayConfirmBox = By.xpath("//button[@onclick='myConfirmFunction()']");
+            public static By paragrafConfirmBox = By.xpath("//*[@id='confirm-demo']") ;
+            public static By buttonAddTextOpenAletBoxToAdd = By.xpath('//button[@onclick='myPromptFunction']');
+
+        }
     }
 }
+

@@ -1,6 +1,7 @@
 package pom.pages;
 
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -10,6 +11,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Common {
+    public static void cancelAlert(){};
+
     public static void setUp() {
         Driver.setDriver();
     }
@@ -70,6 +73,8 @@ public class Common {
         }
         return statuses;
     }
+    public static Alert getAlert(){getAlert();}
+    public static void acceptAlert(){Driver.getDriver().switchTo().alert();}
 }
 
 

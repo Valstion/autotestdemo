@@ -14,16 +14,18 @@ public class CheckBoxDemoTest extends TestBase {
         super.setUp();
         CheckboxDemoPage.open("https://demo.seleniumeasy.com/basic-checkbox-demo.html");
     }
+
     @Test
-    private void testSigleCheckBoxDemo(){
-        String  expectedMessage = "Success - Check box is checked";
+    private void testSigleCheckBoxDemo() {
+        String expectedMessage = "Success - Check box is checked";
         String actualMessage = "";
         CheckboxDemoPage.clickSingleCheckbox();
         actualMessage = CheckboxDemoPage.readMessage();
-        Assert.assertEquals(actualMessage,expectedMessage);
+        Assert.assertEquals(actualMessage, expectedMessage);
     }
+
     @Test
-    private void testMultipleCheckBoxStatusWithCheckedAll(){
+    private void testMultipleCheckBoxStatusWithCheckedAll() {
         String expectedButtonText = "Uncheck All";
         String actualButtonText = "";
         boolean expectedCheckboxStatus = true;
@@ -33,9 +35,21 @@ public class CheckBoxDemoTest extends TestBase {
         Assert.assertEquals(actualButtonText, expectedButtonText);
         actualCheckboxStatus = CheckboxDemoPage.checkStatusesOfSelectedCheckBoxes(expectedCheckboxStatus);
         Assert.assertTrue(actualCheckboxStatus == expectedCheckboxStatus);
-
-
-
-
     }
+
+    @Test
+    private void testMultipleUncheckedBoxesAll() {
+        String expectedButtonText = "Check All";
+        String actualButtonText = "";
+        Boolean expectedCheckboxStatus = false;
+        Boolean actualCheckboxStatus = false;
+        CheckboxDemoPage.clickButtonCheckAll();
+        CheckboxDemoPage.clickButtonCheckAll();
+        actualButtonText = CheckboxDemoPage.readValueOfButtonUnckedAllUtton();
+        Assert.assertEquals(actualButtonText, expectedButtonText);
+        actualCheckboxStatus = CheckboxDemoPage.checkStatusesOfSelectedCheckBoxes(expectedCheckboxStatus);
+        Assert.assertEquals(actualCheckboxStatus, !expectedCheckboxStatus);
+    }
+
+
 }
