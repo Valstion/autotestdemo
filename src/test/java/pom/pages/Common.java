@@ -12,7 +12,7 @@ public class Common {
     }
 
     public static void openUrl(String url) {
-        Driver.openUrl(url);
+        Driver.getDriver().get(url);
     }
 
     public static void close() {

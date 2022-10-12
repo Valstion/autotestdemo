@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e87432b-347c-4f11-a4c5-85c020e73ba3" name="Changes" comment="ScreenShoots gitGnore">
-      <change afterPath="$PROJECT_DIR$/testing.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/RadioButtonDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/RadioButtonDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pom/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/utils/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665562447151</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="ScreenShoots gitGnore">
+      <created>1665565074389</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1665565074389</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
