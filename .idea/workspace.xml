@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e87432b-347c-4f11-a4c5-85c020e73ba3" name="Changes" comment="Demoqa">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pom/pages/seleniumEasy/RadioButtonDemoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pom/pages/seleniumEasy/SelectDropDownDemoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/RadioButtonDemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/SelectDropDownDemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pom/utils/TestLestener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pom/pages/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/pages/Common.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pom/pages/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/pages/Locators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pom/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pom/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/utils/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,25 +48,7 @@
       <recent name="pom.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RadioButtonDemoTest.testRadioButtonDemo">
-    <configuration name="CheckBoxDemoTest.testSigleCheckBoxDemo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="autotestdemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pom.tests.seleniumEasy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pom.tests.seleniumEasy" />
-      <option name="MAIN_CLASS_NAME" value="pom.tests.seleniumEasy.CheckBoxDemoTest" />
-      <option name="METHOD_NAME" value="testSigleCheckBoxDemo" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.RadioButtonDemoTest">
     <configuration name="RadioButtonDemoTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="autotestdemo" />
       <extension name="coverage">
@@ -108,23 +84,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectDropDownDemoTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="autotestdemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pom.tests.seleniumEasy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pom.tests.seleniumEasy" />
-      <option name="MAIN_CLASS_NAME" value="pom.tests.seleniumEasy.SelectDropDownDemoTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SelectDropDownDemoTest.textSelectListDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="autotestdemo" />
       <extension name="coverage">
@@ -143,13 +102,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TextBoxTest.testTwoInputFieldsAdd5and5Values" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autotestdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pom.tests.demoqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pom.tests.demoqa" />
+      <option name="MAIN_CLASS_NAME" value="pom.tests.demoqa.TextBoxTest" />
+      <option name="METHOD_NAME" value="testTwoInputFieldsAdd5and5Values" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="firstFormDemoTest.testTwoInputFields" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autotestdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pom.tests.seleniumEasy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pom.tests.seleniumEasy" />
+      <option name="MAIN_CLASS_NAME" value="pom.tests.seleniumEasy.firstFormDemoTest" />
+      <option name="METHOD_NAME" value="testTwoInputFields" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RadioButtonDemoTest.testRadioButtonDemo" />
         <item itemvalue="TestNG.RadioButtonDemoTest" />
+        <item itemvalue="TestNG.TextBoxTest.testTwoInputFieldsAdd5and5Values" />
+        <item itemvalue="TestNG.firstFormDemoTest.testTwoInputFields" />
+        <item itemvalue="TestNG.RadioButtonDemoTest.testRadioButtonDemo" />
         <item itemvalue="TestNG.SelectDropDownDemoTest.textSelectListDemo" />
-        <item itemvalue="TestNG.SelectDropDownDemoTest" />
-        <item itemvalue="TestNG.CheckBoxDemoTest.testSigleCheckBoxDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665482537291</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Demoqa">
+      <created>1665493949057</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665493949057</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
