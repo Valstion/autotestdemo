@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e87432b-347c-4f11-a4c5-85c020e73ba3" name="Changes" comment="ScreenShort">
+    <list default="true" id="4e87432b-347c-4f11-a4c5-85c020e73ba3" name="Changes" comment="ScreenShoots gitGnore">
+      <change afterPath="$PROJECT_DIR$/testing.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/RadioButtonDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/RadioButtonDemoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pom/utils/TestLestener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/utils/TestLestener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,27 @@
       <recent name="pom.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RadioButtonDemoTest">
+  <component name="RunManager" selected="TestNG.C:/Users/Tohanol/IdeaProjects/autotestdemo/testing.xml">
+    <configuration name="C:/Users/Tohanol/IdeaProjects/autotestdemo/testing.xml" type="TestNG" nameIsGenerated="true">
+      <module name="autotestdemo" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testing.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RadioButtonDemoTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="autotestdemo" />
       <extension name="coverage">
@@ -234,7 +254,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665561414357</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="ScreenShort">
+      <created>1665562367306</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665562367306</updated>
+    </task>
+    <task id="LOCAL-00013" summary="ScreenShoots gitGnore">
+      <created>1665562447151</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665562447151</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,7 +289,8 @@
     <MESSAGE value="dffsdfsdt423523453" />
     <MESSAGE value="Demoqa" />
     <MESSAGE value="ScreenShort" />
-    <option name="LAST_COMMIT_MESSAGE" value="ScreenShort" />
+    <MESSAGE value="ScreenShoots gitGnore" />
+    <option name="LAST_COMMIT_MESSAGE" value="ScreenShoots gitGnore" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
