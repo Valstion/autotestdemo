@@ -26,7 +26,7 @@ public class TestLestener implements ITestListener {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd_HH_mm_ss");
         String dateTime = localDateTime.format(formatter);
 
-        File screenshotFile = new File(directory + "/screendhot " + dateTime + "_" + UUID.randomUUID() + ".png");
+        File screenshotFile = new File(directory + "/screendhot " + dateTime + "   " + UUID.randomUUID() + ".png");
         try {
             FileUtils.copyFile(screenshotRaw, screenshotFile);
         } catch (IOException e) {

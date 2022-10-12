@@ -17,7 +17,7 @@ public class RadioButtonDemoTest extends TestBase {
 
     @DataProvider(name = "DataProviderGender")
     private Object[][] provideDataForGender() {
-        return new Object[][]{{"Male"}, {"Female"}};
+        return new Object[][]{{"M2ale"}, {"Fe2male"}};
     }
 
 
