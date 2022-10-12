@@ -33,18 +33,21 @@ public class Locators {
         public static class CheckBoxDemo {
             public static By inputSingleCheckBox = By.xpath("//input[@id='isAgeSelected']");
             public static By divMessageText = By.xpath("//div[@id='txtAge']");
+            public static By buttonGroupCheckbox = By.xpath("//*[@id='check1']");
+            public static By inputMultipleCheckbox = By.xpath("//input[@class='cb1-element']");
         }
-
+////
         public static class SelectDropdownDemo {
             public static By selectDayOfWeek = By.xpath("//select[@id='select-demo']");
             public static By paragraphDayOfWeek = By.xpath("//p[@class='selected-value']");
-
+            public static By buttonCheckedAll = By.xpath("//*[@id='check1']");
 
         }
 
         public static class RadioButtonDemo {
             public static By buttonCheckValue = By.xpath("//button[@id='buttoncheck']");
             public static By paragraphRadioButton = By.xpath(" //p[@class='radiobutton']");
+
             public static By inputGender(String gender) {
                 return By.xpath(String.format("//input[@value='%s' and @name='optradio']", gender));
             }

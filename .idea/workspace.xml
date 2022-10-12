@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4e87432b-347c-4f11-a4c5-85c020e73ba3" name="Changes" comment="ScreenShoots gitGnore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pom/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/utils/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pom/pages/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/pages/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pom/pages/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/pages/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pom/pages/seleniumEasy/CheckboxDemoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/pages/seleniumEasy/CheckboxDemoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/CheckBoxDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/CheckBoxDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/RadioButtonDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/RadioButtonDemoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +51,7 @@
       <recent name="pom.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Tohanol/IdeaProjects/autotestdemo/testing.xml">
+  <component name="RunManager" selected="TestNG.CheckBoxDemoTest.testMultipleCheckBoxStatusWithCheckedAll">
     <configuration name="C:/Users/Tohanol/IdeaProjects/autotestdemo/testing.xml" type="TestNG" nameIsGenerated="true">
       <module name="autotestdemo" />
       <shortenClasspath name="NONE" />
@@ -63,6 +66,24 @@
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="USE_DEFAULT_REPORTERS" value="true" />
       <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckBoxDemoTest.testMultipleCheckBoxStatusWithCheckedAll" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autotestdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pom.tests.seleniumEasy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pom.tests.seleniumEasy" />
+      <option name="MAIN_CLASS_NAME" value="pom.tests.seleniumEasy.CheckBoxDemoTest" />
+      <option name="METHOD_NAME" value="testMultipleCheckBoxStatusWithCheckedAll" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -97,24 +118,6 @@
       <option name="PACKAGE_NAME" value="pom.tests.seleniumEasy" />
       <option name="MAIN_CLASS_NAME" value="pom.tests.seleniumEasy.RadioButtonDemoTest" />
       <option name="METHOD_NAME" value="testRadioButtonDemo" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectDropDownDemoTest.textSelectListDemo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="autotestdemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pom.tests.seleniumEasy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pom.tests.seleniumEasy" />
-      <option name="MAIN_CLASS_NAME" value="pom.tests.seleniumEasy.SelectDropDownDemoTest" />
-      <option name="METHOD_NAME" value="textSelectListDemo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -160,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CheckBoxDemoTest.testMultipleCheckBoxStatusWithCheckedAll" />
         <item itemvalue="TestNG.RadioButtonDemoTest" />
         <item itemvalue="TestNG.TextBoxTest.testTwoInputFieldsAdd5and5Values" />
         <item itemvalue="TestNG.firstFormDemoTest.testTwoInputFields" />
         <item itemvalue="TestNG.RadioButtonDemoTest.testRadioButtonDemo" />
-        <item itemvalue="TestNG.SelectDropDownDemoTest.textSelectListDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665565074389</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ScreenShoots gitGnore">
+      <created>1665565964756</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1665565964756</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

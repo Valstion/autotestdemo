@@ -15,7 +15,7 @@ public class RadioButtonDemoTest extends TestBase {
         RadioButtonDemoPage.open("https://demo.seleniumeasy.com/basic-radiobutton-demo.html\n");
     }
 
-    @DataProvider(name = "DataProviderGender")
+    @DataProvider(name = "DataProviderGender", parallel = true)
     private Object[][] provideDataForGender() {
         return new Object[][]{{"Male"}, {"Female"}};
     }
