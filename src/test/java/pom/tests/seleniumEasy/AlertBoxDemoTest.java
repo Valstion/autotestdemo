@@ -41,9 +41,11 @@ public class AlertBoxDemoTest extends TestBase {
     private void testSendKeysToAlertBox(){
         String expectedMessage = "Jevgenij";
         String actualMessage;
-        AlertBoxDemoPAge.clickButtonToOpenAlertBoxToAlert();
-        AlertBoxDemoPAge.clickToCloseAlertBox(expectedMessage);
+     //   AlertBoxDemoPAge.clickButtonToOpenAlertBoxToAlert();
+     //   AlertBoxDemoPAge.clickToCloseAlertBox(expectedMessage);
         AlertBoxDemoPAge.clickToAlertBox();
         actualMessage = AlertBoxDemoPAge.readMessageFromAlertBox();
+        Assert.assertTrue(actualMessage.contains(expectedMessage));
+        AlertBoxDemoPAge.sleep(2000);
     }
 }

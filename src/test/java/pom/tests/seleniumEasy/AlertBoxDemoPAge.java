@@ -40,13 +40,22 @@ public class AlertBoxDemoPAge {
          Common.cancelAlert();
     }
 
-    public static void clickButtonToOpenAlertBoxToAlert() {Common.clickElement();
+  //  public static void clickButtonToOpenAlertBoxToAlert() {Common.clickElement();
+  //  }
+    public static void sendMessageToAlertBox(String message) {
+        Common.sendKeysToAlert(message);
     }
-    public static void sendKeysToAlert(String sendKeys){getAlert}
+
+
 
     public static String readMessageFromAlertBox() {
-        return Common.getElementText(Locators.SeleniumEasy.AlertBoxDemo.paragrafConfirmBox);    }
+        return Common.getElementText(
+                Locators.SeleniumEasy.AlertBoxDemo.paragraphAlertBox
+        );
+    }
 
     public static void clickToAlertBox() {
+        Common.acceptAlert();
     }
+
 }

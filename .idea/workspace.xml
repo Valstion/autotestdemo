@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e87432b-347c-4f11-a4c5-85c020e73ba3" name="Changes" comment="mULTIPLE check box demo">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pom/pages/demoqa/ButtonsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pom/pages/demoqa/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pom/tests/demoqa/ButtonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pom/tests/demoqa/ElementPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pom/pages/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/pages/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pom/pages/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/pages/Locators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/AlertBoxDemoPAge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/AlertBoxDemoPAge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/AlertBoxDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/AlertBoxDemoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +49,13 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="pom.tests.demoqa" />
       <recent name="pom.tests.seleniumEasy" />
       <recent name="pom.pages.seleniumEasy" />
       <recent name="pom.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AlertBoxDemoTest.testCanselConfirmBox">
+  <component name="RunManager" selected="TestNG.ButtonTest.rightClickButtontTest">
     <configuration name="AlertBoxDemoTest.testAcceptConfirmBox" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="autotestdemo" />
       <extension name="coverage">
@@ -66,24 +74,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlertBoxDemoTest.testAlertBox" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="autotestdemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pom.tests.seleniumEasy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pom.tests.seleniumEasy" />
-      <option name="MAIN_CLASS_NAME" value="pom.tests.seleniumEasy.AlertBoxDemoTest" />
-      <option name="METHOD_NAME" value="testAlertBox" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AlertBoxDemoTest.testCanselConfirmBox" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="autotestdemo" />
       <extension name="coverage">
@@ -95,6 +85,59 @@
       <option name="PACKAGE_NAME" value="pom.tests.seleniumEasy" />
       <option name="MAIN_CLASS_NAME" value="pom.tests.seleniumEasy.AlertBoxDemoTest" />
       <option name="METHOD_NAME" value="testCanselConfirmBox" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ButtonTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autotestdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pom.tests.demoqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pom.tests.demoqa" />
+      <option name="MAIN_CLASS_NAME" value="pom.tests.demoqa.ButtonTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ButtonTest.doubleClickButtonTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autotestdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pom.tests.demoqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pom.tests.demoqa" />
+      <option name="MAIN_CLASS_NAME" value="pom.tests.demoqa.ButtonTest" />
+      <option name="METHOD_NAME" value="doubleClickButtonTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ButtonTest.rightClickButtontTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autotestdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pom.tests.demoqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pom.tests.demoqa" />
+      <option name="MAIN_CLASS_NAME" value="pom.tests.demoqa.ButtonTest" />
+      <option name="METHOD_NAME" value="rightClickButtontTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -122,49 +165,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckBoxDemoTest.testMultipleCheckBoxStatusWithCheckedAll" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="autotestdemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pom.tests.seleniumEasy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pom.tests.seleniumEasy" />
-      <option name="MAIN_CLASS_NAME" value="pom.tests.seleniumEasy.CheckBoxDemoTest" />
-      <option name="METHOD_NAME" value="testMultipleCheckBoxStatusWithCheckedAll" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckBoxDemoTest.testMultipleUncheckedBoxesAll" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="autotestdemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pom.tests.seleniumEasy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pom.tests.seleniumEasy" />
-      <option name="MAIN_CLASS_NAME" value="pom.tests.seleniumEasy.CheckBoxDemoTest" />
-      <option name="METHOD_NAME" value="testMultipleUncheckedBoxesAll" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ButtonTest.rightClickButtontTest" />
+        <item itemvalue="TestNG.ButtonTest.doubleClickButtonTest" />
+        <item itemvalue="TestNG.ButtonTest" />
         <item itemvalue="TestNG.AlertBoxDemoTest.testCanselConfirmBox" />
         <item itemvalue="TestNG.AlertBoxDemoTest.testAcceptConfirmBox" />
-        <item itemvalue="TestNG.AlertBoxDemoTest.testAlertBox" />
-        <item itemvalue="TestNG.CheckBoxDemoTest.testMultipleUncheckedBoxesAll" />
-        <item itemvalue="TestNG.CheckBoxDemoTest.testMultipleCheckBoxStatusWithCheckedAll" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665580053454</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="mULTIPLE check box demo">
+      <created>1665642044589</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1665642044589</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -4,9 +4,11 @@ package pom.pages;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import pom.utils.Driver;
 
+import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -78,12 +80,37 @@ public class Common {
     }
 
     public static Alert getAlert() {
-        getAlert();
+        return Driver.getDriver().switchTo().alert();
     }
 
     public static void acceptAlert() {
-        Driver.getDriver().switchTo().alert();
+        getAlert().accept();
     }
+
+   // public static void cancelAlert() {getAlert().dismiss();}
+
+    public static void sendKeysToAlert(String sendKeys) {
+        getAlert().sendKeys(sendKeys);
+    }
+    public static void clickElementByAction(By locator){WebElement element = getElement(locator);
+        Actions actions = new Actions(Driver.getDriver());
+        actions.moveToElement(element);
+        actions.click();
+        actions.perform();
+    }
+    public static void doubleclickElementByAction(By locator){WebElement element = getElement(locator);
+        Actions actions = new Actions(Driver.getDriver());
+        actions.moveToElement(element);
+        actions.doubleClick();
+        actions.perform();
+    }
+    public static void rightClickElementByAction(By locator){WebElement element = getElement(locator);
+        Actions actions = new Actions(Driver.getDriver());
+        actions.moveToElement(element);
+        actions.contextClick();
+        actions.perform();
+    }
+
 }
 
 
