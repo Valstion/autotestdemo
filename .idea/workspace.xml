@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e87432b-347c-4f11-a4c5-85c020e73ba3" name="Changes" comment="mULTIPLE check box demo">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pom/pages/demoqa/DynamicPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pom/pages/tv3/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pom/tests/demoqa/DynamicPropertiesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pom/tests/demoqa/DynamicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pom/tests/tv3/Honestest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pom/pages/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/pages/Common.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pom/pages/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/pages/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pom/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/utils/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665647824059</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="mULTIPLE check box demo">
+      <created>1665659508109</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1665659508109</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
