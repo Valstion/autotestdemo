@@ -5,10 +5,13 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import pom.utils.Driver;
 
 import javax.swing.*;
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -110,7 +113,22 @@ public class Common {
         actions.contextClick();
         actions.perform();
     }
+    public static void waitToElementToBEClickable(By locator) {
+        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(8));
+        wait.until(ExpectedConditions.elementToBeClickable(locator));
+    }
 
+
+    public static void clickButtonChangeCorolAfter(By locator , String attibutename, String attibuteValue) {
+        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(8));
+        wait.until(ExpectedConditions.attributeContains(locator, attibutename,attibuteValue));
+    }
+
+    public static void clickButtonWithVizibleChange(By locator) {
+        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(8));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+
+    }
 }
 
 

@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e87432b-347c-4f11-a4c5-85c020e73ba3" name="Changes" comment="mULTIPLE check box demo">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pom/pages/demoqa/ButtonsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pom/pages/demoqa/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pom/tests/demoqa/ButtonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pom/tests/demoqa/ElementPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pom/pages/demoqa/DynamicPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pom/pages/tv3/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pom/tests/demoqa/DynamicPropertiesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pom/tests/demoqa/DynamicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pom/tests/tv3/Honestest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pom/pages/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/pages/Common.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pom/pages/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/pages/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/AlertBoxDemoPAge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/AlertBoxDemoPAge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/AlertBoxDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/tests/seleniumEasy/AlertBoxDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pom/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pom/utils/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,60 +55,7 @@
       <recent name="pom.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ButtonTest.rightClickButtontTest">
-    <configuration name="AlertBoxDemoTest.testAcceptConfirmBox" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="autotestdemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pom.tests.seleniumEasy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pom.tests.seleniumEasy" />
-      <option name="MAIN_CLASS_NAME" value="pom.tests.seleniumEasy.AlertBoxDemoTest" />
-      <option name="METHOD_NAME" value="testAcceptConfirmBox" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlertBoxDemoTest.testCanselConfirmBox" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="autotestdemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pom.tests.seleniumEasy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pom.tests.seleniumEasy" />
-      <option name="MAIN_CLASS_NAME" value="pom.tests.seleniumEasy.AlertBoxDemoTest" />
-      <option name="METHOD_NAME" value="testCanselConfirmBox" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ButtonTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="autotestdemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pom.tests.demoqa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pom.tests.demoqa" />
-      <option name="MAIN_CLASS_NAME" value="pom.tests.demoqa.ButtonTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Honestest.testOpenPageNissie">
     <configuration name="ButtonTest.doubleClickButtonTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="autotestdemo" />
       <extension name="coverage">
@@ -165,13 +112,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DynamicTest.testButtonWait" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autotestdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pom.tests.demoqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pom.tests.demoqa" />
+      <option name="MAIN_CLASS_NAME" value="pom.tests.demoqa.DynamicTest" />
+      <option name="METHOD_NAME" value="testButtonWait" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Honestest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autotestdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pom.tests.tv3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pom.tests.tv3" />
+      <option name="MAIN_CLASS_NAME" value="pom.tests.tv3.Honestest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Honestest.testOpenPageNissie" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autotestdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pom.tests.tv3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pom.tests.tv3" />
+      <option name="MAIN_CLASS_NAME" value="pom.tests.tv3.Honestest" />
+      <option name="METHOD_NAME" value="testOpenPageNissie" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Honestest.testOpenPageNissie" />
+        <item itemvalue="TestNG.Honestest" />
+        <item itemvalue="TestNG.DynamicTest.testButtonWait" />
         <item itemvalue="TestNG.ButtonTest.rightClickButtontTest" />
         <item itemvalue="TestNG.ButtonTest.doubleClickButtonTest" />
-        <item itemvalue="TestNG.ButtonTest" />
-        <item itemvalue="TestNG.AlertBoxDemoTest.testCanselConfirmBox" />
-        <item itemvalue="TestNG.AlertBoxDemoTest.testAcceptConfirmBox" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665642044589</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="mULTIPLE check box demo">
+      <created>1665647824059</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1665647824059</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

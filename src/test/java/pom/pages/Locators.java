@@ -24,6 +24,11 @@ public class Locators {
             public static By menuButtons = By.xpath("//span[text()='Buttons']");
             public static By buttonDoubleKick = By.xpath("//button[@id='doubleClickBtn']");
             public static By buttonSecondKick = By.xpath("//button[@id='rightClickBtn']");
+
+            public static By buttonDynamicWait = By.xpath(" //button[@id='enableAfter']");
+            public static By buttonDynamicColor= By.xpath(" //button[@id='colorChange']");
+            public static By buttonDynamicSwizzleAfter = By.xpath(" //button[@id='visibleAfter']");
+
         }
     }
 
@@ -78,5 +83,15 @@ public class Locators {
 
         }
     }
+
+public static class tv3 {
+        public static By formPrivacyConfirmation = By.xpath("//div[@id='qc-cmp2-ui']");
+        public static By buttonConfirm =By.xpath("//div[@id='qc-cmp2-ui']//button[@mode='primary']");
+        public static By linkMenuClick = By.xpath("//div[@class='headerItems']//a[contains(text(),'Užsienis')]");
+        public static By newListHeaderName = By.xpath("//div[@class='News-list-header']//a[contains(text(),'Užsienis')]");
+}
+
+
+
 }
 

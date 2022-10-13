@@ -17,7 +17,7 @@ public class Driver {
         //    driver = new ChromeDriver(setUpOptions());
         driver.set(new ChromeDriver(setUpOptions()));
         driver.get().manage().deleteAllCookies();
-        driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+       // driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
     public static WebDriver getDriver() {
