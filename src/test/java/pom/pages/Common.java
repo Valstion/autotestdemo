@@ -11,7 +11,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Common {
-    public static void cancelAlert(){};
+    public static void cancelAlert() {
+    }
+
+    ;
 
     public static void setUp() {
         Driver.setDriver();
@@ -73,8 +76,14 @@ public class Common {
         }
         return statuses;
     }
-    public static Alert getAlert(){getAlert();}
-    public static void acceptAlert(){Driver.getDriver().switchTo().alert();}
+
+    public static Alert getAlert() {
+        getAlert();
+    }
+
+    public static void acceptAlert() {
+        Driver.getDriver().switchTo().alert();
+    }
 }
 
 

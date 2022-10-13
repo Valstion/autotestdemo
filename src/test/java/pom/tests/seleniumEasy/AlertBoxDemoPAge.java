@@ -46,4 +46,7 @@ public class AlertBoxDemoPAge {
 
     public static String readMessageFromAlertBox() {
         return Common.getElementText(Locators.SeleniumEasy.AlertBoxDemo.paragrafConfirmBox);    }
+
+    public static void clickToAlertBox() {
+    }
 }
